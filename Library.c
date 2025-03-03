@@ -21,13 +21,13 @@ int main ()
     scanf("%d", &d);
     n=r-d;//days overdue =return date - due date 
     printf("The days overdue is %d",n);
-    if (n>1    &&    n<=7) {
+    if (n>=1    &&    n<=7) {
         printf("fn=20");
     }
     else if (n>7    &&    n<=14) {
         printf("fn=50");
     }
-    else if (n>15)   {
+    else if (n>=15)   {
         printf("fn=100");
     }
     return 0;   
